@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>Architecture's University</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:100,200' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/sliderman.1.3.8.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/sliderman.css" />
 </head>
 <body>
 
-    <div id="container">
+<div id="container">
 
     <div id="header">
         <img src="img/text.png">
@@ -16,13 +19,59 @@
         </div>
     </div>
 
-        <div id="tab_system">
-            <a id="button_1"> <p id="home">Home</p></a>
-            <a id="button_2"> <p id="gallery">Gallery</p></a>
-            <a id="button_3"> <p id="schedule">Schedule</p></a>
-            <a id="button_4"> <p id="curricula">Curricula</p></a>
-            <a id="button_5"> <p id="contact">Contact Us</p></a>
-            <a id="button_6"> <p id="application">Application</p></a>
+    <div id="tab_system">
+        <a href="index.html" id="button_1"> <p id="home">Home</p></a>
+        <a href="gallery.html" id="button_2"> <p id="gallery">Gallery</p></a>
+        <a href="schedule.html" id="button_3"> <p id="schedule">Schedule</p></a>
+        <a href="curricula.html" id="button_4"> <p id="curricula">Curricula</p></a>
+        <a href="contact_us.html" id="button_5"> <p id="contact">Contact Us</p></a>
+        <a href="application.html" id="button_6"> <p id="application">Application</p></a>
+    </div>
+
+    <div id="slideshow">
+        <div id="wrapper">
+
+            <div id="examples_outer">
+
+                <div id="slider_container_2">
+
+                    <div id="SliderName_2" class="SliderName_2">
+                        <img src="img/1.jpg" width="700" height="450" alt="Demo2 first" title="Demo2 first" usemap="#img1map" />
+                        <map name="img1map">
+                            <area href="#img1map-area1" shape="rect" coords="100,100,200,200" />
+                            <area href="#img1map-area2" shape="rect" coords="300,100,400,200" />
+                        </map>
+                        <div class="SliderName_2Description"> <strong>Entré</strong></div>
+                        <img src="img/2.jpg" width="700" height="450" alt="Demo2 second" title="Demo2 second" />
+                        <div class="SliderName_2Description"> <strong>Lobby</strong></div>
+                        <img src="img/3.jpg" width="700" height="450" alt="Demo2 third" title="Demo2 third" />
+                        <div class="SliderName_2Description"> <strong>Matsal</strong></div>
+                        <img src="img/4.jpg" width="700" height="450" alt="Demo2 fourth" title="Demo2 fourth" />
+                        <div class="SliderName_2Description"> <strong>Kök</strong></div>
+                    </div>
+                    <div class="c"></div>
+                    <div id="SliderNameNavigation_2"></div>
+                    <div class="c"></div>
+
+                    <script type="text/javascript">
+                        effectsDemo2 = 'rain,stairs,fade';
+                        var demoSlider_2 = Sliderman.slider({container: 'SliderName_2', width: 700, height: 450, effects: effectsDemo2,
+                            display: {
+                                autoplay: 3000,
+                                loading: {background: '#000000', opacity: 0.5, image: 'img/loading.gif'},
+                                buttons: {hide: true, opacity: 1, prev: {className: 'SliderNamePrev_2', label: ''}, next: {className: 'SliderNameNext_2', label: ''}},
+                                description: {hide: true, background: '#000000', opacity: 0.4, height: 50, position: 'bottom'},
+                                navigation: {container: 'SliderNameNavigation_2', label: '<img src="img/clear.gif" />'}
+                            }
+                        });
+                    </script>
+
+                    <div class="c"></div>
+                </div>
+                <div class="c"></div>
+            </div>
+
+            <div class="c"></div>
         </div>
 
 </body>
