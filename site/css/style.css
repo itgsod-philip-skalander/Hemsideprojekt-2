@@ -21,9 +21,10 @@ body{
 }
 
 #header_text{
-    margin-left: 915px;
+    margin-left: 920px;
     font-size: 20pt;
-    margin-top: -100px;
+    margin-top: -110px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 img{
@@ -38,6 +39,11 @@ img{
     float: left;
     margin-left: 67px;
 
+}
+
+#news_text{
+    margin-top: -15px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 #login_block{
@@ -59,114 +65,106 @@ img{
 #button_1{
     width: 150px;
     height: 100px;
-    background-color: #EBEBEB;
+    background-color: limegreen;
     float: left;
     margin-left: 36px;
     border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 #button_2{
     width: 150px;
     height: 100px;
-    background-color: #EBEBEB;
+    background-color: limegreen;
     float: left;
     margin-left: 35px;
     border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 #button_3{
     width: 150px;
     height: 100px;
-    background-color: #EBEBEB;
+    background-color: #CC3833;
     float: left;
     margin-left: 35px;
     border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 #button_4{
     width: 150px;
     height: 100px;
-    background-color: #EBEBEB;
+    background-color: #CC3833;
     float: left;
     margin-left: 35px;
     border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 #button_5{
     width: 150px;
     height: 100px;
-    background-color: #EBEBEB;
+    background-color: #0099CC;
     float: left;
     margin-left: 35px;
     border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 #button_6{
     width: 150px;
     height: 100px;
-    background-color: #EBEBEB;
+    background-color: #0099CC;
     float: left;
     margin-left: 36px;
     border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 #contact, #application{
-    margin-left: 10px;
+    text-align: center;
 }
 
 #home, #gallery{
-    margin-left: 35px;
+    text-align: center;
 }
 
 #schedule, #curricula{
-    margin-left: 22px;
+    text-align: center;
 }
 
 #contact, #application, #home, #gallery, #schedule, #curricula{
-    margin-top: 70px;
-    font-size: 28px;
+    margin-top: 60px;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 @font-face {
-    font-family: philip;
-    src: url(font/philp.tff);
-}
-
-#button_1:hover{
-    background-color: limegreen;
-}
-
-#button_2:hover{
-    background-color: limegreen;
-}
-
-#button_3:hover{
-    background-color: #CC0033;
-}
-
-#button_4:hover{
-    background-color: #CC0033;
-}
-
-#button_5:hover{
-    background-color: #0099CC;
-}
-
-#button_6:hover{
-    background-color: #0099CC;
+    font-family: 'Raleway', sans-serif;
 }
 
 #news{
     margin-left: 15px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 #paragraf1, #paragraf2, #paragraf3, #paragraf4{
     margin-left: 15px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 #username, #password{
     margin-left: 150px;
     width: 270px;
     height: 35px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 #password{
@@ -175,51 +173,48 @@ img{
 
 #login_text{
     margin-left: 170px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 #student_login{
-    width: 10px;
-    height: 10px;
-    background-color: red;
+    width: 123px;
+    height: 50px;
+    float: left;
+    background-color: #EBEBEB;
+    margin-top: 25px;
+    margin-left: 152px;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    text-align: center;
 }
 
 #teacher_login{
-    width: 10px;
-    height: 10px;
-    background-color: red;
-}
-
-#picture1{
-    width: 100%;
-    height: 100px;
-    margin-left: 45px;
-    margin-top: 20px;
-    float: left;
-}
-
-#sketch1{
-    width: 100%;
-    height: 100%;
-    margin-left: 45px;
-    margin-top: 40px;
-    float: left;
-}
-
-#text1{
-    width: 600px;
+    width: 123px;
     height: 50px;
-    margin-left: 510px;
     float: left;
-    margin-top: -680px;
+    background-color: #EBEBEB;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    text-align: center;
+}
 
+#teacher_login:hover{
+    background-color: #0099CC;
+}
+
+#student_login:hover{
+    background-color: #0099CC;
 }
 
 #text2{
     width: 600px;
     height: 50px;
     margin-left: 510px;
-    margin-top: -360px;
+    margin-top: -80px;
     float: left;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
 #sketch2{
@@ -227,6 +222,31 @@ img{
     height: 50px;
     margin-left: 45px;
     float: left;
-    margin-top: -380px;
+    margin-top: 50px;
+}
 
+#student, #teacher{
+    margin-top: 25px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    text-align: center;
+}
+
+#city{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#schedule_pic{
+    float: left;
+    margin-left: -38px;
+    margin-top: -20px;
+    height: 540px;
+}
+
+#wrapper{
+    margin-left: 200px;
+    margin-top: -25px;
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
 }
