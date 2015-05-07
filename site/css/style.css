@@ -26,12 +26,9 @@ body{
     font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
-img{
-    margin-left: 10px;
-}
 
 #news_block{
-    background-color: #EBEBEB;
+    background-color: rgba(255, 255, 255, 0.5);
     width: 550px;
     height: 300px;
     border: 1px solid black;
@@ -46,7 +43,7 @@ img{
 }
 
 #login_block{
-    background-color: #EBEBEB;
+    background-color: rgba(255, 255, 255, 0.5);
     width: 450px;
     height: 300px;
     margin-left: 60px;
@@ -70,6 +67,30 @@ img{
     border: 1px solid black;
     text-decoration: none;
     color: black;
+}
+
+#button_1:hover{
+    background-color: #55AA55;
+}
+
+#button_2:hover{
+    background-color: #55AA55;
+}
+
+#button_3:hover{
+    background-color: #AA3939;
+}
+
+#button_4:hover{
+    background-color: #AA3939;
+}
+
+#button_5:hover{
+    background-color: #0E7EA9;
+}
+
+#button_6:hover{
+    background-color: #0E7EA9;
 }
 
 #button_2{
@@ -238,13 +259,14 @@ img{
 
 #schedule_pic{
     float: left;
-    margin-left: -38px;
+    margin-left: -28px;
     margin-top: -20px;
     height: 540px;
+
 }
 
 #wrapper{
-    margin-left: 100px;
+    margin-left: 249px;
     margin-top: -25px;
     width: 700px;
     height: 450px;
@@ -268,3 +290,68 @@ img{
     font-family: 'Raleway', sans-serif’; font-weight: 400;
 }
 
+#curricula_text1{
+    margin-left: 55px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    margin-top: -0px;
+    width: 500px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+}
+
+#curricula_text2{
+    margin-left: 625px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-top: -463px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+#t_block{
+    width: 1060px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-left: 70px;
+    border: solid black 1px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#gallery_text1{
+    width: 210px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    margin-top: -453px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+#gallery_text2{
+    width: 210px;
+    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    margin-top: -503px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 1px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 970px;
+    border: 1px solid black;
+}
