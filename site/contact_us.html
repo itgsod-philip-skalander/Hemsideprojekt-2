@@ -5,6 +5,41 @@
     <title>Architecture's University</title>
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Raleway:100,200' rel='stylesheet' type='text/css'>
+    <script
+            src="http://maps.googleapis.com/maps/api/js">
+    </script>
+
+    <script>
+        function initialize()
+        {
+            var mapProp = {
+                center: new google.maps.LatLng(51.508742,-0.120850),
+                zoom:9,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var mapProp2 = {
+                center: new google.maps.LatLng(51.508742,-0.120850),
+                zoom:9,
+                mapTypeId: google.maps.MapTypeId.SATELLITE
+            };
+            var mapProp3 = {
+                center: new google.maps.LatLng(51.508742,-0.120850),
+                zoom:9,
+                mapTypeId: google.maps.MapTypeId.HYBRID
+            };
+            var mapProp4 = {
+                center: new google.maps.LatLng(51.508742,-0.120850),
+                zoom:9,
+                mapTypeId: google.maps.MapTypeId.TERRAIN
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapProp2);
+            var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapProp3);
+            var map4 = new google.maps.Map(document.getElementById("googleMap4"),mapProp4);
+        }
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 <body>
 
@@ -22,9 +57,24 @@
         <a href="gallery.html" id="button_2"> <p id="gallery">Gallery</p></a>
         <a href="schedule.html" id="button_3"> <p id="schedule">Schedule</p></a>
         <a href="curricula.html" id="button_4"> <p id="curricula">Curricula</p></a>
-        <a href="contact_us.html" id="button_5"> <p id="contact">Contact Us</p></a>
+        <a href="contact_us.html" id="button_5" style="background-color: #0E7EA9;"> <p id="contact">Contact Us</p></a>
         <a href="application.html" id="button_6"> <p id="application">Application</p></a>
     </div>
+
+    <div id="curricula_text1">
+        <h1 id="curricula_title1"> Contact Information </h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. </p>
+    </div>
+
+    <div id="block5">
+        <div id="googleMap" style="width:480px;height:320px;"></div>
+        <div id="kartatext">
+            <h2> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+        </div>
+
+    </div>
+    <div style="height: 50px;"></div>
 
 
 </body>
