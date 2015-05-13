@@ -930,11 +930,8 @@ Sliderman.order({
 		return arr;
 	}
 });
+
 /* predefined effects */
-Sliderman.effect({name: 'fade', fade: true, duration: 400});
-Sliderman.effect({name: 'move', left: true, move: true, duration: 400});
-Sliderman.effect({name: 'stairs', cols: 7, rows: 5, delay: 30, order: 'straight_stairs', road: 'BL', fade: true});
-Sliderman.effect({name: 'blinds', cols: 10, delay: 100, duration: 400, order: 'straight', right: true, zoom: true, fade: true});
-Sliderman.effect({name: 'rain', cols: 10, delay: 100, duration: 400, order: 'straight', top: true, fade: true});
+Sliderman.effect({name: 'fade', fade: true, duration: 800});
 
 

@@ -1,7 +1,6 @@
 body{
-    background-image: url("http://www.patrycjaphotography.com/wp-content/uploads/2013/05/grey-striped-background-20721.png");
+    background-image: url("../img/grid.png")
 }
-
 #container{
     margin-left: auto;
     margin-right: auto;
@@ -10,7 +9,7 @@ body{
 }
 
 #header{
-    background-color: #EBEBEB;
+    background-color: rgba(255, 255, 255, 0.8);
     width: 100%;
     height: 150px;
     border: 1px solid black;
@@ -28,7 +27,7 @@ body{
 
 
 #news_block{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     width: 550px;
     height: 300px;
     border: 1px solid black;
@@ -43,7 +42,7 @@ body{
 }
 
 #login_block{
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     width: 450px;
     height: 300px;
     margin-left: 60px;
@@ -163,7 +162,7 @@ body{
 #contact, #application, #home, #gallery, #schedule, #curricula{
     margin-top: 60px;
     font-size: 24px;
-    font-family: 'Raleway', sans-serif’; font-weight: 400;
+    font-family: 'Raleway', sans-serif’; font-weight: 600;
 }
 @font-face {
     font-family: 'Raleway', sans-serif;
@@ -300,7 +299,7 @@ body{
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid black;
 }
 
@@ -311,7 +310,7 @@ body{
     width: 500px;
     margin-top: -463px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -322,10 +321,10 @@ body{
 #t_block{
     width: 1060px;
     height: 380px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.8);
     margin-left: 70px;
     border: solid black 1px;
-    margin-top: 10px;
+    margin-top: 400px;
     padding-bottom: 10px;
 }
 
@@ -334,7 +333,7 @@ body{
     font-family: 'Raleway', sans-serif’; font-weight: 400;
     margin-top: -453px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 1px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -347,7 +346,7 @@ body{
     font-family: 'Raleway', sans-serif’; font-weight: 400;
     margin-top: -503px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     padding-top: 1px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -378,7 +377,7 @@ body{
     width: 520px;
     height: 463px;
     margin-left: 625px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
     border: solid black 1px;
     margin-top: -465px;
 }
